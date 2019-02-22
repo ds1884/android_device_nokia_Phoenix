@@ -48,6 +48,9 @@ AB_OTA_PARTITIONS += \
     boot \
     system
 
+# APEX image
+DEXPREOPT_GENERATE_APEX_IMAGE := true
+
 # Assert
 TARGET_OTA_ASSERT_DEVICE := PNX_sprout
 
