@@ -97,6 +97,9 @@ TARGET_RECOVERY_DEVICE_DIRS := $(DEVICE_PATH)
 # RIL
 ENABLE_VENDOR_RIL_SERVICE := true
 
+# Sepolicy
+include device/qcom/sepolicy/SEPolicy.mk
+
 # WiFi
 BOARD_WLAN_DEVICE := qcwcn
 BOARD_HOSTAPD_DRIVER := NL80211
