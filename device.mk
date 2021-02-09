@@ -114,6 +114,11 @@ PRODUCT_PACKAGES += \
     Tag \
     com.android.nfc_extras
 
+# Power
+PRODUCT_PACKAGES += \
+    android.hardware.power-service-qti \
+    vendor.qti.hardware.perf@2.2
+
 # Screen density
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
