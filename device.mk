@@ -93,6 +93,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/keylayout/goodix_fp.kl:system/usr/keylayout/goodix_fp.kl
 
+# Misc
+PRODUCT_COPY_FILES += \
+    frameworks/native/data/etc/android.software.controls.xml:system/etc/permissions/android.software.controls.xml
+
 # Net
 PRODUCT_PACKAGES += \
     netutils-wrapper-1.0
