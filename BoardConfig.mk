@@ -72,3 +72,6 @@ BOARD_USES_QCOM_HARDWARE := true
 # Recovery
 TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
 TARGET_RECOVERY_FSTAB := device/nokia/Phoenix/rootdir/etc/fstab.qcom
+
+# RIL
+ENABLE_VENDOR_RIL_SERVICE := true
