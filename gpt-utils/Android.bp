@@ -16,7 +16,7 @@
 
 
 cc_library {
-    name: "libgptutils.sdm710",
+    name: "libgptutils.phoenix",
     vendor: true,
     recovery_available: true,
     shared_libs: [
