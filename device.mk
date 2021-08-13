@@ -27,6 +27,13 @@ PRODUCT_PACKAGES += \
     otapreopt_script \
     cppreopts.sh
 
+# Audio
+PRODUCT_PACKAGES += \
+    audio.a2dp.default
+
+PRODUCT_COPY_FILES += \
+    $(DEVICE_PATH)/configs/audio/audio_policy_configuration.xml:system/etc/audio_policy_configuration.xml
+
 # Boot control
 PRODUCT_PACKAGES += \
     android.hardware.boot@1.0-impl.recovery \
