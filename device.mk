@@ -101,10 +101,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/keylayout/goodix_fp.kl:system/usr/keylayout/goodix_fp.kl
 
-# LiveDisplay
-PRODUCT_PACKAGES += \
-    lineage.livedisplay@2.0-service-sdm
-
 # Misc
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.controls.xml:system/etc/permissions/android.software.controls.xml
