@@ -33,6 +33,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Graphics
 PRODUCT_PROPERTY_OVERRIDES += \
     debug.sf.enable_hwc_vds=1 \
+    debug.sf.latch_unsignaled=1 \
+    persist.sys.force_sw_gles=1 \
     ro.opengles.version=196610
 
 # HWUI
