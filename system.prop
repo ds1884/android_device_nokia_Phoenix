@@ -118,18 +118,12 @@ ro.netflix.bsp_rev=Q845-05000-1
 
 # NFC
 ro.nfc.port=I2C
-ro.hardware.nfc_nci=sec
-ro.boot.nfc=sec
 
 # Display
 debug.gralloc.enable_fb_ubwc=1
-debug.sf.enable_hwc_vds=1
 debug.sf.hw=1
-debug.sf.latch_unsignaled=1
 ro.qualcomm.cabl=0
 ro.vendor.display.cabl=2
-sdm.debug.disable_skip_validate=1
-sdm.perf_hint_window=50
 
 # Radio
 rild.libpath=/vendor/lib64/libril-qc-hal-qmi.so
