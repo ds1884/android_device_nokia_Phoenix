@@ -75,10 +75,6 @@ PRODUCT_PACKAGES += \
     libqti_vndfwk_detect \
     libvndfwk_detect_jni.qti
 
-# Fstab
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/etc/fstab.qcom:$(TARGET_COPY_OUT_RAMDISK)/fstab.qcom
-
 # HIDL
 PRODUCT_PACKAGES += \
     android.hidl.base@1.0 \
