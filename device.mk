@@ -128,9 +128,6 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
-# System properties
--include $(LOCAL_PATH)/system_prop.mk
-
 # Telephony
 PRODUCT_PACKAGES += \
     telephony-ext \
