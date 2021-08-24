@@ -1,2 +1,6 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_Phoenix.mk
+    $(LOCAL_DIR)/radiant_Phoenix.mk
+    
+        COMMON_LUNCH_CHOICES := \
+    radiant_Phoenix-userdebug \
+    radiant_Phoenix-eng \
