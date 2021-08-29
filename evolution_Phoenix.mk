@@ -3,10 +3,10 @@ $(call inherit-product, device/nokia/Phoenix/device.mk)
 
 # Inherit some common LineageOS stuff.
 TARGET_BOOT_ANIMATION_RES := 1080
-$(call inherit-product, vendor/radiant/config/common_full_phone.mk)
+$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := radiant_Phoenix
+PRODUCT_NAME := evolution_Phoenix
 PRODUCT_DEVICE := Phoenix
 PRODUCT_BRAND := Nokia
 PRODUCT_MODEL := Nokia 8.1
