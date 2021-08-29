@@ -21,10 +21,10 @@ Nokia 8.1 was announced and released in Nov 2018.
 
 How to build
 
-. build/envsetup.sh && lunch radiant_Phoenix-userdebug
+. build/envsetup.sh && lunch evolution_Phoenix-userdebug
 
 
-brunch radiant_Phoenix-userdebug
+make bacon
 
 ## Device picture
 
