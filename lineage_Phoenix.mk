@@ -6,7 +6,7 @@ TARGET_BOOT_ANIMATION_RES := 1080
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := evolution_Phoenix
+PRODUCT_NAME := lineage_Phoenix
 PRODUCT_DEVICE := Phoenix
 PRODUCT_BRAND := Nokia
 PRODUCT_MODEL := Nokia 8.1
